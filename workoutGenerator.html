@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Eric Stafford
+Date: 9.23.19
+Most recent revision: 9.29.19
+Notes section below.
+-->
+<html lang="en">
+<head>
+    <title>
+        Random Workout Generator!
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="workoutGenerator.js"></script>
+    <link rel="stylesheet" href="workoutGenerator.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+        <h1>
+            Seth's Simple Workout Generator
+        </h1>
+    <div>
+    <p id="workoutDisplay">
+        <!--Workouts will go here--></p>
+    <p id="amountDisplay">
+        <!--Amounts will go here--></p>
+    </div>
+    <button id="workout" onclick="newWorkout()" class="button button1">New Workout</button>
+    <button id="amount" onclick="newAmount()" class="button button2">New Amount</button>
+    <br>
+    <button id="print" onclick="printList()" class="button button3">Print to List</button>
+    <div>
+        <!--Printed workouts and amounts will go here-->
+    </div>
+    <ol id="printDisplay">
+            <li></li>
+            <!-- <button id="continue" onclick="continueList" class="button">Continue?</button> -->
+        </ol>
+    <footer>
+
+    </footer>
+</body>
+</html>
+<!--
+    Notes: How to list the workouts so that they don't dissapear when clicking the new amount button?
+-->
+  

@@ -1,0 +1,62 @@
+/*
+Eric Stafford
+Date: 9.23.19
+Most recent revision: 9.29.19
+*/
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    display: none;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+    display: none;
+  }
+  .button3:hover {
+    background-color: red;
+    color: white;
+  }
+  h1 {
+      text-align: center;
+  }
+  ol {
+      text-align:center;
+  }
+  #workoutDisplay, #amountDisplay, #printDisplay {
+    text-align: center;
+  }
+  
+  /*
+  Notes: Buttons need to be the same size, and centered, as well as in a horizontal row, not a column
+  */
